@@ -35,7 +35,7 @@ def extract_faces(img):
     face_points = face_detector.detectMultiScale(gray, 1.2, 5, minSize=(20, 20))
     return face_points
 
-# Define Flask routes
+# flask routes that connects other python files
 @app.route('/')
 def check_students():
     for depname in [list1, list2]:
