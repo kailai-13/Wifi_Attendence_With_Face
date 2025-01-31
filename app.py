@@ -2,7 +2,7 @@ import os
 import time
 import cv2
 from flask import Flask, request, render_template
-from multiping import MultiPing
+from multiping import MultiPing #u can replace multiping with anyother library for identifing mac address which is a better  option
 from datetime import date, datetime
 import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
