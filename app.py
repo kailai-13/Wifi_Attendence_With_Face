@@ -11,7 +11,7 @@ import joblib
 
 app = Flask(__name__)
 
-# Define global variables and constants
+# it uses ipv6 codes for tracking devices make sure your phone's ip address is in it
 kailai = ["192.168.123.153", "KAILAINATHAN"]
 ironman = ["192.168.168.1", "GAUSIC"]
 mentor = ["192.168.123.153", "SHERIN"]
